@@ -15,4 +15,4 @@ nSidesL(90, 2)
 nSidesL(90, 1)
 
 nDegreesLeft(90)
-goForward(5)
+goForward(30)
