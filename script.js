@@ -35,7 +35,8 @@ $("#xTeleport-Button").click(function() {
 
 
 function xTeleport(n) {
-  turtle.animate()
+  turtle.animate({
+    left: n})
 }
 
 function nPoints(n) {
