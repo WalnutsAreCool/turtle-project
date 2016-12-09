@@ -29,8 +29,9 @@ $("#spiral-ring-button").click(function() {
 })
 
 $("#Teleport-Button").click(function() { 
-  var TeleportCoordinate = $("#xTeleport").val()
-  Teleport(TeleportCoordinate)
+  var xTeleportCoordinate = $("#xTeleport").val()
+  var yTeleportCoordinate = $("#yTeleport").val()
+  Teleport(xTeleportCoordinate, yTeleportCoordinate)
 })
 
 
