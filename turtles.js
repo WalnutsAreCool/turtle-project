@@ -29,10 +29,11 @@ function goForward(distance) {
   turtle.animate({
     left: position.x, 
     bottom: position.y,
-  },{
+  },
     complete : function() {
       insertLine(origPosition, origHeading, distance)
-    }
+    },
+    duration: 2,
   })
 
 }
