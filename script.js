@@ -29,6 +29,10 @@ $("#spiral-ring-button").click(function() {
 })
 
 
+function xTeleport(n) {
+  
+}
+
 function nPoints(n) {
   for (i=0; i<n; i++) {
     goForward(360/n)
