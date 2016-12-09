@@ -26,7 +26,7 @@ for (var j=0; j<n+1; j++) {
 }
 
 
-for (q=0; q<4; q++){
+for (q=0; q<12; q++){
 nSpiralRing(4)
 nSpiralRing(3)
 }

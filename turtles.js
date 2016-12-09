@@ -1,5 +1,5 @@
 var heading = 0
-var position = {x: 440, y: 450};
+var position = {x: 250, y: 450};
 var turtle = $("#turtle");
 var turtleCage = $(".turtle-cage")
 
@@ -33,7 +33,7 @@ function goForward(distance) {
     complete : function() {
       insertLine(origPosition, origHeading, distance)
     },
-    duration: 0.5,
+    duration: 0.1,
   })
 
 }
