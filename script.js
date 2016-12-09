@@ -28,9 +28,14 @@ $("#spiral-ring-button").click(function() {
   nSpiralRing(typeOfSpiralRing)
 })
 
+$("#xTeleport-Button").click(function() { 
+  var xTeleportCoordinate = $("#xTeleport").val()
+  nSpiralRing(typeOfSpiralRing)
+})
+
 
 function xTeleport(n) {
-  
+  position.x = n
 }
 
 function nPoints(n) {
