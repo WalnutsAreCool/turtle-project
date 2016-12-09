@@ -40,6 +40,8 @@ function Teleport(n,m) {
     left: n,
     bottom: m
   })
+  console.log(n)
+  console.log(m)
 }
 
 function nPoints(n) {
