@@ -39,18 +39,12 @@ function Teleport(n,m) {
   turtle.animate({
     left: n,
     bottom: m
-  }, {
-    duration: 2,
-     complete : function() {
-    insertLine(origPosition, origHeading, distance)
-  },
-})
+  }, 
+  {duration: 2,}
+)
+}
 
-}
-                
-  console.log(n)
-  console.log(m)
-}
+
 
 function nPoints(n) {
   for (i=0; i<n; i++) {
