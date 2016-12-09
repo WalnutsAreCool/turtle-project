@@ -30,12 +30,12 @@ $("#spiral-ring-button").click(function() {
 
 $("#xTeleport-Button").click(function() { 
   var xTeleportCoordinate = $("#xTeleport").val()
-  nSpiralRing(typeOfSpiralRing)
+  nSpiralRing(xTeleportCoordinate)
 })
 
 
 function xTeleport(n) {
-  position.x = n
+  animateposition.x = n
 }
 
 function nPoints(n) {
