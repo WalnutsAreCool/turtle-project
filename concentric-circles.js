@@ -5,7 +5,14 @@ function nSidesL(n,l) {
   }
 }
 
-nSidesL(90, 8)
-nSidesL(90, 7)
-nSidesL(90, 6)
-nSidesL(90, 5)
+//nSidesL(90, 8)
+//nSidesL(90, 7)
+//nSidesL(90, 6)
+//nSidesL(90, 5)
+//nSidesL(90, 4)
+//nSidesL(90, 3)
+nSidesL(90, 2)
+nSidesL(90, 1)
+
+nDegreesLeft(90)
+goForward(5)
