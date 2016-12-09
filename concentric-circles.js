@@ -25,11 +25,16 @@ for (var j=0; j<n+1; j++) {
   nDegreesRight(90)
 }
 
+$("#art-button").click(function() { 
+  var numberOfCircles = $("#art").val()
+  nCircles(numberOfCircles)
+})
 
+function weirdCircle {
 for (q=0; q<12; q++){
 nSpiralRing(4)
 nSpiralRing(3)
-}
+}}
 
 
 //nSidesL(90, 2)
