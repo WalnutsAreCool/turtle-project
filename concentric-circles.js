@@ -11,6 +11,12 @@ function nSidesL(n,l) {
 //nSidesL(90, 5)
 //nSidesL(90, 4)
 //nSidesL(90, 3)
+
+$("#circle-button").click(function() { 
+  var numberOfCircles = $("#circle").val()
+  nCircles(numberOfCircles)
+})
+
 function nCircles(n)
 for (var j=1; j<n+1; j++) {
   nSidesL(90,n+1-j)
@@ -19,7 +25,6 @@ for (var j=1; j<n+1; j++) {
   nDegreesRight(90)
 }
 
-nCircles(2)
 
 
 //nSidesL(90, 2)
