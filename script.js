@@ -28,15 +28,17 @@ $("#spiral-ring-button").click(function() {
   nSpiralRing(typeOfSpiralRing)
 })
 
-$("#xTeleport-Button").click(function() { 
-  var xTeleportCoordinate = $("#xTeleport").val()
-  xTeleport(xTeleportCoordinate)
+$("#Teleport-Button").click(function() { 
+  var TeleportCoordinate = $("#xTeleport").val()
+  Teleport(TeleportCoordinate)
 })
 
 
-function xTeleport(n) {
+function Teleport(n,m) {
   turtle.animate({
-    left: n})
+    left: n,
+    bottom: m
+  })
 }
 
 function nPoints(n) {
