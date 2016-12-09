@@ -39,7 +39,15 @@ function Teleport(n,m) {
   turtle.animate({
     left: n,
     bottom: m
-  })
+  }, {
+    duration: 2,
+     complete : function() {
+    insertLine(origPosition, origHeading, distance)
+  },
+})
+
+}
+                
   console.log(n)
   console.log(m)
 }
