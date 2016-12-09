@@ -11,6 +11,12 @@ function nSidesL(n,l) {
 //nSidesL(90, 5)
 //nSidesL(90, 4)
 //nSidesL(90, 3)
+
+for (i=1, i<10, i++) {
+  nSidesL(90,i)
+  nDegreesLeft(90)
+  goForward(30)
+}
 nSidesL(90, 2)
 nSidesL(90, 1)
 
