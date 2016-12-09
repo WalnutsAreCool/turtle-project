@@ -19,7 +19,7 @@ $("#circle-button").click(function() {
 
 function nCircles(n)
 for (var j=1; j<n+1; j++) {
-  nSidesL(90,n+1-j)
+  nSidesL(90,n-j)
   nDegreesLeft(90)
   goInvisible(15)
   nDegreesRight(90)
