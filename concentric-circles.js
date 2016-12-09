@@ -12,14 +12,14 @@ function nSidesL(n,l) {
 //nSidesL(90, 4)
 //nSidesL(90, 3)
 
-
-for (var i=1; i<10; i++) {
-  nSidesL(90,10-i)
+for (var j=1; j<10; j++) {
+  nSidesL(90,10-j)
   nDegreesLeft(90)
   goInvisible(15)
   nDegreesRight(90)
-  console.log("hi", i)
 }
+
+
 //nSidesL(90, 2)
 //nSidesL(90, 1)
 //
