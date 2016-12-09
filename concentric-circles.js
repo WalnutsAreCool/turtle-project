@@ -26,11 +26,10 @@ for (var j=0; j<n+1; j++) {
 }
 
 $("#art-button").click(function() { 
-  var numberOfCircles = $("#art").val()
-  nCircles(numberOfCircles)
+  weirdCircle()
 })
 
-function weirdCircle {
+function weirdCircle() {
 for (q=0; q<12; q++){
 nSpiralRing(4)
 nSpiralRing(3)
