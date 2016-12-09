@@ -1,5 +1,5 @@
 var heading = 0
-var position = {x: 200, y: 170};
+var position = {x: 500, y: 500};
 var turtle = $("#turtle");
 var turtleCage = $(".turtle-cage")
 
