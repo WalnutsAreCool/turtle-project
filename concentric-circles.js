@@ -26,10 +26,10 @@ for (var j=0; j<n+1; j++) {
 }
 
 
-for ()
-nCircles(4)
-nCircles(3)
-
+for (q=0; q<4; q++){
+nSpiralRing(4)
+nSpiralRing(3)
+}
 
 
 //nSidesL(90, 2)
