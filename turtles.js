@@ -57,8 +57,8 @@ function goInvisible(distance) {
     },
     duration: 0.5,
   })
-
 }
+
 function insertLine(start, angle, distance) {
   var lineEl = $("<div class='line'></div>")
   lineEl.css({
