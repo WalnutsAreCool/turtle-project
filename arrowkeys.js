@@ -12,7 +12,7 @@ $(document).keydown(function(e) {
 
 $(document).keydown(function(e) {	
   if (e.keyCode == "37") {
-    nDegreesRight(22.5)
+    nDegreesLeft(22.5)
   }
 })
 
