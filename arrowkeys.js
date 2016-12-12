@@ -22,6 +22,20 @@ $(document).keydown(function(e) {
   }
 })
 
+$(document).keydown(function(e) {	
+  if (e.keyCode == "65") {
+    nDegreesLeft(90)
+  }
+})
+
+$(document).keydown(function(e) {	
+  if (e.keyCode == "68") {
+    nDegreesRight(90)
+  }
+})
+
+
+
 //gameInput.keydown(function(keydownEvent) {
 //
 //  if(keydownEvent.keycode == "39") {
