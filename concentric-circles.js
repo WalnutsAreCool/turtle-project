@@ -5,13 +5,6 @@ function nSidesL(n,l) {
   }
 }
 
-//nSidesL(90, 8)
-//nSidesL(90, 7)
-//nSidesL(90, 6)
-//nSidesL(90, 5)
-//nSidesL(90, 4)
-//nSidesL(90, 3)
-
 $("#circle-button").click(function() { 
   var numberOfCircles = $("#circle").val()
   nCircles(numberOfCircles)
@@ -30,14 +23,8 @@ $("#art-button").click(function() {
 })
 
 function weirdCircle() {
-for (q=0; q<12; q++){
-nSpiralRing(4)
-nSpiralRing(3)
-}}
+  for (q=0; q<12; q++){
+    nSpiralRing(4)
+    nSpiralRing(3)
+  }}
 
-
-//nSidesL(90, 2)
-//nSidesL(90, 1)
-//
-//nDegreesLeft(90)
-//goForward(30)
