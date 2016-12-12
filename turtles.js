@@ -1,5 +1,5 @@
 var heading = 0
-var position = {x: 200, y: 170};
+var position = {x: 250, y: 350};
 var turtle = $("#turtle");
 var turtleCage = $(".turtle-cage")
 
@@ -32,9 +32,31 @@ function goForward(distance) {
   },{
     complete : function() {
       insertLine(origPosition, origHeading, distance)
-    }
+    },
+    duration: 0.1,
   })
 
+}
+
+function goInvisible(distance) {    
+  var radians = -1 * heading * (Math.PI/180);
+  var yIncrement = Math.sin(radians) * distance;
+  var xIncrement = Math.cos(radians) * distance;        
+
+  var origPosition = {x: position.x, y: position.y}; 
+  var origHeading = heading;
+
+  position.x = position.x + xIncrement;
+  position.y = position.y + yIncrement;
+
+  turtle.animate({
+    left: position.x, 
+    bottom: position.y,
+  },{
+    complete : function() {
+    },
+    duration: 0.5,
+  })
 }
 
 function insertLine(start, angle, distance) {
@@ -49,6 +71,6 @@ function insertLine(start, angle, distance) {
     background: "black",
     position: "absolute"
   })
-  
+
   turtleCage.append(lineEl)
 }
